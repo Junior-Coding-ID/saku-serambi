@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saku Serambi — Anggaran Rumah Tangga Keluarga Arif &amp; Maya</title>
+<meta name="description" content="Saku Serambi — Make room for what matters. Anggaran rumah tangga Keluarga Arif & Maya, November 2026: amplop, tagihan, tujuan tabungan, dan laporan, semua dalam satu tempat.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#overview">
+    <img src="assets/logo.svg" alt="Logo Saku Serambi" width="40" height="40">
+    <span class="brand-text"><strong>Saku Serambi</strong><em>Make room for what matters.</em></span>
+  </a>
+  <nav class="mainnav" aria-label="Navigasi utama">
+    <a href="#overview" data-nav="overview">Ringkasan</a>
+    <a href="#budget" data-nav="budget">Anggaran</a>
+    <a href="#transactions" data-nav="transactions">Transaksi</a>
+    <a href="#bills" data-nav="bills">Tagihan</a>
+    <a href="#goals" data-nav="goals">Tujuan</a>
+    <a href="#reports" data-nav="reports">Laporan</a>
+    <a href="#settings" data-nav="settings">Pengaturan</a>
+  </nav>
+  <p class="month-badge">November 2026</p>
+</header>
+
+<main id="app" aria-live="polite">
+  <section id="view-overview" class="view" data-view="overview" aria-label="Ringkasan"></section>
+  <section id="view-budget" class="view" data-view="budget" aria-label="Anggaran" hidden></section>
+  <section id="view-transactions" class="view" data-view="transactions" aria-label="Transaksi" hidden></section>
+  <section id="view-bills" class="view" data-view="bills" aria-label="Tagihan" hidden></section>
+  <section id="view-goals" class="view" data-view="goals" aria-label="Tujuan" hidden></section>
+  <section id="view-reports" class="view" data-view="reports" aria-label="Laporan" hidden></section>
+  <section id="view-settings" class="view" data-view="settings" aria-label="Pengaturan" hidden></section>
+</main>
+
+<footer class="foot">
+  <p><strong>Saku Serambi</strong> — Make room for what matters. Anggaran rumah tangga Keluarga Arif &amp; Maya · November 2026.</p>
+  <p>Semua angka dihitung dari 40 transaksi bulan ini. Data tersimpan di perangkat ini saja dan tidak dikirim ke mana pun.</p>
+  <p class="foot-nav"><a href="#overview">Ringkasan</a> · <a href="#budget">Anggaran</a> · <a href="#transactions">Transaksi</a> · <a href="#bills">Tagihan</a> · <a href="#goals">Tujuan</a> · <a href="#reports">Laporan</a> · <a href="#settings">Pengaturan</a></p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
